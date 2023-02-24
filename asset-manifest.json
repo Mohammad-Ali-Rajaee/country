@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/country/static/css/main.fc0cbc85.css",
+    "main.js": "/country/static/js/main.e34ef06b.js",
+    "static/media/NunitoSans-Light.ttf": "/country/static/media/NunitoSans-Light.8fde328cad4b7fd03bcd.ttf",
+    "static/media/NunitoSans-ExtraBold.ttf": "/country/static/media/NunitoSans-ExtraBold.7f6fb187a1b4fe5f9f42.ttf",
+    "static/media/NunitoSans-SemiBold.ttf": "/country/static/media/NunitoSans-SemiBold.97020b1bfe8c41a3bd4e.ttf",
+    "static/media/Linearicons-Free.woff?w118d": "/country/static/media/Linearicons-Free.a78a26fb0b18bc4cde28.woff",
+    "static/media/Linearicons-Free.ttf?w118d": "/country/static/media/Linearicons-Free.5cbe0a85581dc42087ac.ttf",
+    "static/media/Linearicons-Free.woff2?w118d": "/country/static/media/Linearicons-Free.857c65d6452680b4f3b1.woff2",
+    "index.html": "/country/index.html",
+    "main.fc0cbc85.css.map": "/country/static/css/main.fc0cbc85.css.map",
+    "main.e34ef06b.js.map": "/country/static/js/main.e34ef06b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc0cbc85.css",
+    "static/js/main.e34ef06b.js"
+  ]
+}
