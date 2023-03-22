@@ -1,15 +1,15 @@
 import { useEffect } from "react";
-import {
-  Route,
-  BrowserRouter as Router,
-  Routes,
-} from "../node_modules/react-router-dom/dist/index";
 import Home from "./Home";
 import Header from "./Header";
 import "./style.css";
 import Country from "./Country";
 import useFetch from "./useFetch";
 import { useState } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "../node_modules/react-router-dom/dist/index";
 
 function App() {
   const { countries, loading, error } = useFetch(
@@ -33,7 +33,7 @@ function App() {
         <main className="main-container w-full pb-44">
           <Routes>
             <Route
-              path="/"
+              path="/country"
               element={
                 <Home
                   countries={countries}

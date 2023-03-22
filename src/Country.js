@@ -50,7 +50,7 @@ const Country = ({ theme }) => {
         <div className="main__header py-16">
           <Button
             className={`back-btn ${theme} w-24 flex justify-between items-center rounded-md px-5 py-2`}
-            path={"/"}
+            path={"/country"}
             text="back"
             additionalClass="lnr lnr-arrow-left"
           />
