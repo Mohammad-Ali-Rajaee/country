@@ -6,7 +6,6 @@ import Country from "./Country";
 import useFetch from "./useFetch";
 import { useState } from "react";
 import {
-  BrowserRouter as Router,
   Route,
   Routes,
 } from "../node_modules/react-router-dom/dist/index";
@@ -27,7 +26,6 @@ function App() {
   }, [theme]);
 
   return (
-    <Router>
       <div className="App">
         <Header theme={theme} handleMode={handleMode} />
         <main className="main-container w-full pb-44">
@@ -47,7 +45,6 @@ function App() {
           </Routes>
         </main>
       </div>
-    </Router>
   );
 }
 
