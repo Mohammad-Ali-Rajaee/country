@@ -13,7 +13,7 @@ const Country = ({ theme }) => {
       let country = countries.filter((el) => el.alpha3Code === code)[0];
       return (
         <Button
-          path={"/" + code}
+          path={"/country/" + code}
           className={`back-btn ${theme} h-8 w-max flex justify-between items-center rounded-md px-5`}
           text={country.name}
           additionalClass=""
@@ -50,7 +50,7 @@ const Country = ({ theme }) => {
         <div className="main__header py-16">
           <Button
             className={`back-btn ${theme} w-24 flex justify-between items-center rounded-md px-5 py-2`}
-            path={"/country"}
+            path={"/"}
             text="back"
             additionalClass="lnr lnr-arrow-left"
           />
