@@ -31,7 +31,7 @@ function App() {
         <main className="main-container w-full pb-44">
           <Routes>
             <Route
-              path="/country"
+              path="/"
               element={
                 <Home
                   countries={countries}
