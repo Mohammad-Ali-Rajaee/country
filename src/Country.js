@@ -13,7 +13,7 @@ const Country = ({ theme }) => {
       let country = countries.filter((el) => el.alpha3Code === code)[0];
       return (
         <Button
-          path={"/country/" + code}
+          path={"/" + code}
           className={`back-btn ${theme} h-8 w-max flex justify-between items-center rounded-md px-5`}
           text={country.name}
           additionalClass=""
