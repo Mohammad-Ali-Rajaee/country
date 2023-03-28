@@ -2,7 +2,6 @@
   "name": "contries",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Mohammad-Ali-Rajaee.github.io/country",
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.2",
     "@testing-library/jest-dom": "^5.16.5",
@@ -15,8 +14,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,11 +38,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
-    "gulp": "^4.0.2",
-    "gulp-postcss": "^9.0.1",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^5.1.0",
     "postcss": "^8.4.21",
     "sass": "^1.58.0",
     "tailwindcss": "^3.2.4"
